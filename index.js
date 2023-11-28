@@ -16,8 +16,8 @@ const SCOPES = [
 const labelName = "Vacation Auto-Reply";
 app.get("/", async (req, res) => {
 
-  const auth = await authenticate({
-    keyfilePath: path.join(__dirname, "credentials.json"),
+  const auth = await aukeyfilePath: path.join(__dirname, "cthenticate({
+    redentials.json"),
     scopes: SCOPES,
   });
 
